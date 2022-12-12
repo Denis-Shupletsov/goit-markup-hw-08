@@ -1,0 +1,55 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.produce {
+    padding-bottom: 0px;
+}
+
+.quality-teams {
+    visibility: hidden;
+    position: absolute;
+}
+
+.quality {
+    display: flex;
+    gap: 30px;
+
+    &__icon {
+        display: block;
+    }
+
+    &-icon-group {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 4px;
+        background-color: $button-group-color;
+        margin-bottom: 30px;
+    }
+
+    &__section-title {
+        color: $text-color;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    &__section-text {
+        color: $secondary-color;
+
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    
+    & &__section-title+&__section-title {
+        margin-right: 30px;
+    }
+}

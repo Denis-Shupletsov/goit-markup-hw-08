@@ -1,0 +1,56 @@
+.subscribe-footer {
+    display: block;
+    margin-left: 93px;
+    width: 570px;
+    height: 86px;
+
+    &__subscribe-footer-text {
+        margin-bottom: 20px;
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: $main-text-color;
+    }
+}
+
+.subscribe-footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__subscribe-user {
+        margin-right: 12px;
+    }
+    
+    &__subscribe-footer-input {
+        display: flex;
+        width: 358px;
+        height: 50px;
+
+        padding-left: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        color: $main-text-color;
+
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: rgba(47, 48, 58, 1);
+    }
+
+    &__subscribe-button {
+        display: flex;
+
+        min-width: 200px;
+        height: 50px;
+        padding: 10px;
+    }
+    
+    &__fotter-button-icon {
+        padding-left: 10px;
+        fill: $main-text-color;
+    }
+}

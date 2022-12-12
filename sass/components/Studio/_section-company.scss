@@ -1,0 +1,32 @@
+.company {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+    &__company-link {
+        display: flex;
+        width: 170px;
+        height: 92px;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+
+        color: #AFB1B8;
+
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__company-link:hover {
+        color: $focus-background-color;
+        border-color: $focus-background-color;
+    }
+    
+    &__company-icon {
+        fill: currentColor;
+    }
+}
