@@ -1,5 +1,4 @@
 .section__section-subtitle {
-    
     @media screen and (min-width: $mobile) {
         display: none;
     }
@@ -8,30 +7,16 @@
         display: none;
     }
 
-    // @media screen and (min-width: $desktop) {
-    //     margin-bottom: 50px;
-
-    //     font-weight: 700;
-    //     font-size: 36px;
-    //     line-height: 1.17;
-    //     text-align: center;
-    // }
-
-}
-
-.section__section-subtitle--section-heading {
 
     @media screen and (min-width: $desktop) {
-margin-bottom: 50px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    }
-            
+    }     
 }
-
 
 .page {
 
