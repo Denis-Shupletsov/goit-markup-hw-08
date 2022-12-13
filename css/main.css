@@ -437,8 +437,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .info-nav__link {
-    display: flex;
-    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
   }
