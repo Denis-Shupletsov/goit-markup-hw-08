@@ -315,12 +315,14 @@ img {
   height: auto;
 }
 
-.page-header {
-  border-bottom: 1px solid #ECECEC;
-}
-.page-header__page-main-nav {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 1200px) {
+  .page-header {
+    border-bottom: 1px solid #ECECEC;
+  }
+  .page-header__page-main-nav {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .logo {
@@ -551,36 +553,60 @@ img {
   margin-right: 30px;
 }
 
-.section__section-subtitle--section-heading {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+@media screen and (min-width: 480px) {
+  .section__section-subtitle--section-heading {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section__section-subtitle--section-heading {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section__section-subtitle--section-heading {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
 }
 
-.page {
-  display: flex;
-  gap: 30px;
+@media screen and (min-width: 480px) {
+  .page {
+    display: none;
+  }
 }
-.page__works {
-  position: relative;
+@media screen and (min-width: 768px) {
+  .page {
+    display: none;
+  }
 }
-.page__works-applications {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 370px;
-  height: 70px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: rgba(47, 48, 58, 0.8);
+@media screen and (min-width: 1200px) {
+  .page {
+    display: flex;
+    gap: 30px;
+  }
+  .page__works {
+    position: relative;
+  }
+  .page__works-applications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 370px;
+    height: 70px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 }
 
 .section-team {

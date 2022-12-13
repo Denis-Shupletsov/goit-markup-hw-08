@@ -1,8 +1,19 @@
 .page-header {
-    border-bottom: 1px solid #ECECEC;
+    // @media screen and (min-width: $mobile) {
+        
+    // }
 
-    &__page-main-nav {
-        display: flex;
-        align-items: center;
+    // @media screen and (min-width: $tablet) {
+
+    // }
+
+    @media screen and (min-width: $desktop) {
+        border-bottom: 1px solid #ECECEC;
+
+        &__page-main-nav {
+            display: flex;
+            align-items: center;
+        }
     }
+    
 }
