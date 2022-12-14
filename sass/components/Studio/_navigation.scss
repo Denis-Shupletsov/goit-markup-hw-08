@@ -75,3 +75,10 @@
     color: $focus-background-color;
     }
 }
+
+.menu-button {
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}

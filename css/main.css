@@ -398,6 +398,13 @@ img {
   color: #2196F3;
 }
 
+.menu-button {
+  display: inline-flex;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
 .info-nav {
   display: flex;
   margin-left: auto;
