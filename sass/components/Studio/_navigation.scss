@@ -1,6 +1,9 @@
 .main-nav {
-    display: flex;
-    align-items: center;
+    @media screen and (min-width: 767px) {
+        display: flex;
+        align-items: center;
+    }
+    
 
     &__site-nav {
             display: flex;
@@ -74,25 +77,16 @@
         &__site-nav &__link-portfolio {
     color: $focus-background-color;
     }
-
-    &__menu-button {
-        display: inline-flex;
-        border: none;
-        background-color: transparent;
-        padding: 0;
-    }
-
-    
 }
 
-.menu-button__icon-close-menu {
-    display: none;
-}
+// .menu-button__icon-close-menu {
+//     display: none;
+// }
 
-.main-nav__menu-button.is-open .menu-button__icon-close-menu {
-    display: block;
-}
+// .main-nav__menu-button.is-open .menu-button__icon-close-menu {
+//     display: block;
+// }
 
-.main-nav__menu-button.is-open .menu-button__icon-open-menu {
-    display: none;
-}
+// .main-nav__menu-button.is-open .menu-button__icon-open-menu {
+//     display: none;
+// }
