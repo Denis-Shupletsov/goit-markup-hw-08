@@ -397,12 +397,23 @@ img {
 .main-nav__site-nav .main-nav__link-portfolio {
   color: #2196F3;
 }
-
-.menu-button {
+.main-nav__menu-button {
   display: inline-flex;
   border: none;
   background-color: transparent;
   padding: 0;
+}
+
+.menu-button__icon-close-menu {
+  display: none;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-close-menu {
+  display: block;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-open-menu {
+  display: none;
 }
 
 .info-nav {

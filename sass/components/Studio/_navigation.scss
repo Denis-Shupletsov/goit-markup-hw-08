@@ -74,11 +74,25 @@
         &__site-nav &__link-portfolio {
     color: $focus-background-color;
     }
+
+    &__menu-button {
+        display: inline-flex;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    
 }
 
-.menu-button {
-    display: inline-flex;
-    border: none;
-    background-color: transparent;
-    padding: 0;
+.menu-button__icon-close-menu {
+    display: none;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-close-menu {
+    display: block;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-open-menu {
+    display: none;
 }
