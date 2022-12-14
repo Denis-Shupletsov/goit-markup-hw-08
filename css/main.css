@@ -315,13 +315,18 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 1200px) {
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+@media screen and (max-width: 767px) {
   .page-header {
-    border-bottom: 1px solid #ECECEC;
+    height: 60px;
   }
   .page-header__page-main-nav {
     display: flex;
     align-items: center;
+    height: 100%;
+    justify-content: space-between;
   }
 }
 

@@ -17,22 +17,26 @@
     <header class="page-header">
         
         <div class="container page-header__page-main-nav">
+            <a href="/" class="logo page-header__logo"><span style="color: #2196F3;">Web</span>Studio</a>
             
+                                        <!-- Переключатель мобильного меню -->
+
+                <button type="button" class="main-nav__menu-button is-open" aria-expanded="false" data-menu-button>
+                    <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
+                        <use class="menu-button__icon-open-menu" href="./img/symbol-defs.svg#icon-open_menu"></use>
+                        <use class="menu-button__icon-close-menu" href="./img/symbol-defs.svg#icon-close_menu"></use>
+                    </svg>
+                </button>
+
                                     <!-- header-page-main-nav -->
-                <nav class="main-nav">
-                    <a href="/" class="logo page-header__logo"><span style="color: #2196F3;">Web</span>Studio</a>
-                    <button type="button" class="main-nav__menu-button is-open" aria-expanded="false" js-open-menu>
-                        <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
-                            <use class="menu-button__icon-open-menu" href="./img/symbol-defs.svg#icon-open_menu"></use>
-                            <use class="menu-button__icon-close-menu" href="./img/symbol-defs.svg#icon-close_menu"></use>
-                        </svg>
-                    </button>
-                        <ul class="main-nav__site-nav list">
-                            <li class="main-nav__item"><a href="./index.html" class="main-nav__link-studio main-nav__link-studio--activ main-nav__link">Студія</a></li>
-                            <li class="main-nav__item"><a href="./portfolio.html" class="main-nav__link">Портфоліо</a></li>
-                            <li class="main-nav__item"><a href="Контакти" class="main-nav__link">Контакти</a></li>
-                        </ul>
-                </nav>
+                <div class="menu is-open data-menu">
+                    <nav class="main-nav">
+                            <ul class="main-nav__site-nav list">
+                                <li class="main-nav__item"><a href="./index.html" class="main-nav__link-studio main-nav__link-studio--activ main-nav__link">Студія</a></li>
+                                <li class="main-nav__item"><a href="./portfolio.html" class="main-nav__link">Портфоліо</a></li>
+                                <li class="main-nav__item"><a href="Контакти" class="main-nav__link">Контакти</a></li>
+                            </ul>
+                    </nav>
                                             <!--header-info-nav -->
                         <ul class="info-nav list">
                             <li class="info-nav__item"><a href="mailto:info@devstudio.com" class="info-nav__link info-nav__mail">
@@ -47,6 +51,15 @@
                                 </svg>+38 096 111 11 11</a>
                             </li>
                         </ul>
+                        
+                                        <!-- Мобильный вид social-links-->
+                        <ul class="social-links">
+                            <li><a href="#" class="social-links__link">Instagram</a></li>
+                            <li><a href="#" class="social-links__link">Twitter</a></li>
+                            <li><a href="#" class="social-links__link">Facebook</a></li>
+                            <li><a href="#" class="social-links__link">LinkedIn</a></li>
+                        </ul>
+                </div>
         </div>
     </header>
                                             <!-- hero -->
