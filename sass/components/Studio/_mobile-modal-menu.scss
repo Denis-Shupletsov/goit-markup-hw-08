@@ -28,5 +28,28 @@
 }
 
 .modal-menu-list__link {
-    
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: $text-color;
+
+    &--current {
+        color: $focus-background-color;
+    }
 }
+
+.modal-menu-contacts {
+    margin-top: auto;
+
+    &__item {
+        margin-bottom: 32px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    }
+}
+
