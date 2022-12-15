@@ -383,14 +383,15 @@ img {
 .main-nav__menu-button.is-open .menu-button__icon-close-menu {
   display: block;
 }
-.main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button.is-open .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-open-menu {
-  display: none;
-}
 .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:hover .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-open-menu, .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:focus .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-open-menu {
   fill: #757575;
 }
 .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:hover.is-open .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-close-menu, .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:focus.is-open .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-close-menu {
   fill: #212121;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-open-menu {
+  display: none;
 }
 
 .menu-container {
@@ -399,7 +400,7 @@ img {
   top: 100%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 796px;
   background-color: #FFFFFF;
   padding: 48px 40px;
   z-index: 10;
@@ -440,6 +441,53 @@ img {
 }
 .modal-menu-contacts__item:last-child {
   margin-bottom: 0px;
+}
+.modal-menu-contacts__link-tel {
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+.modal-menu-contacts__link-mail {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-menu__socials {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+
+.mobile-menu__item {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.mobile-menu__item:last-child {
+  border-right: none;
+}
+.mobile-menu__item:first-child {
+  padding-left: 0;
+}
+
+.mobile-menu__link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+body.mobile-menu-open {
+  overflow: hidden;
 }
 
 .main-nav {
