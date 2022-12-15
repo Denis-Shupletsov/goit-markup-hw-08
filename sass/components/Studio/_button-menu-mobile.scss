@@ -26,17 +26,12 @@
 }
 
 .menu-button__icon-close-menu {
-    display: none;
+    display: block;
 }
 
 .main-nav__menu-button.is-open .menu-button__icon-close-menu {
     display: block;
 
-
-
-    &__menu-button.is-open &__icon-open-menu {
-        display: none;
-    }
 
     &__menu-button:hover &__icon-open-menu,
     &__menu-button:focus &__icon-open-menu {
@@ -47,4 +42,8 @@
     &__menu-button:focus.is-open &__icon-close-menu {
         fill: $text-color;
     }
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-open-menu {
+    display: none;
 }
