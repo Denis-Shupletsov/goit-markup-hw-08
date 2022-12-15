@@ -1,6 +1,13 @@
 .logo {
-    display: inline-block;
 
+    @media screen and (max-width: 767.95px) {
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    display: block;
+    
     text-decoration: none;
     color: $text-color;
     font-family: Raleway, sans-serif;
