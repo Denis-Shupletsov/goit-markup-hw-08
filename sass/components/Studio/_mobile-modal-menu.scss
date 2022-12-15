@@ -2,9 +2,10 @@
     display: none;
     
     position: fixed;
-    top: 100%;
+    // top: 100%;
     left: 0;
     width: 100%;
+    max-width: 480px;
     height: 796px;
 
     background-color: $main-text-color;

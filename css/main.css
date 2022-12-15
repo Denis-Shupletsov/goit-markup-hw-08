@@ -350,20 +350,22 @@ img {
   color: #2196F3;
 }
 
-.main-nav__menu-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  z-index: 50;
+@media screen and (max-width: 767.95px) {
+  .main-nav__menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    z-index: 50;
+  }
 }
 @media screen and (min-width: 768px) {
   .main-nav__menu-button {
@@ -395,9 +397,9 @@ img {
 .menu-container {
   display: none;
   position: fixed;
-  top: 100%;
   left: 0;
   width: 100%;
+  max-width: 480px;
   height: 796px;
   background-color: #FFFFFF;
   padding: 48px 40px;
