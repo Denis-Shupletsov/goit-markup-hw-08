@@ -1,0 +1,47 @@
+.main-nav__menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+}
+
+.menu-button__icon-close-menu {
+    display: none;
+}
+
+.main-nav__menu-button.is-open .menu-button__icon-close-menu {
+    display: block;
+
+    &__menu-button.is-open &__icon-open-menu {
+        display: none;
+    }
+
+    &__menu-button:hover &__icon-open-menu,
+    &__menu-button:focus &__icon-open-menu {
+        fill: $secondary-color;
+    }
+
+    &__menu-button:hover.is-open &__icon-close-menu,
+    &__menu-button:focus.is-open &__icon-close-menu {
+        fill: $text-color;
+    }
+}

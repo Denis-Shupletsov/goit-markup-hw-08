@@ -3,13 +3,13 @@
         align-items: center;
     
     &__site-nav {
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 767.95px) {
                 display: none;
             }
-        }
 
-        @media screen and (min-width: 768px) {
-            display: flex;
+            @media screen and (min-width: $tablet) {
+                display: flex;
+            }
         }
 
     &__site-nav {
@@ -27,7 +27,7 @@
     }
     
     &__link {
-        @media screen and (min-width: 767.98px) {
+        @media screen and (min-width: 768px) {
             position: relative;
 
             display: block;

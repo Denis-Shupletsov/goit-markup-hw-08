@@ -1,0 +1,27 @@
+.menu-container {
+    display: none;
+
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: $main-text-color;
+    padding: 48px 40px;
+
+    &.is-open {
+        display: flex;
+        top: 0;
+        overflow: scroll;
+        flex-direction: column;
+    }
+}
+
+.modal-menu-list__item {
+    margin-bottom: 32px;
+}
+
+.modal-menu-list__item:last-child {
+    margin-bottom: 0;
+}
