@@ -376,18 +376,16 @@ img {
   }
 }
 
+.menu-button__icon:hover .menu-button__icon-close-menu {
+  fill: #2196F3;
+}
+
 .menu-button__icon-close-menu {
   display: none;
 }
 
 .main-nav__menu-button.is-open .menu-button__icon-close-menu {
   display: block;
-}
-.main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:hover .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-open-menu, .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:focus .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-open-menu {
-  fill: #757575;
-}
-.main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:hover.is-open .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-close-menu, .main-nav__menu-button.is-open .menu-button__icon-close-menu__menu-button:focus.is-open .main-nav__menu-button.is-open .menu-button__icon-close-menu__icon-close-menu {
-  fill: #212121;
 }
 
 .main-nav__menu-button.is-open .menu-button__icon-open-menu {
