@@ -1,0 +1,18 @@
+.main-nav__menu-button {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+
+    & .menu-button__icon-close-menu {
+        display: none;
+    }
+
+    &.is-open .menu-button__icon-close-menu {
+        display: block;
+    }
+
+    &.is-open .menu-button__icon-open-menu {
+        display: none;
+    }
+}
