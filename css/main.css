@@ -318,6 +318,9 @@ img {
 
 .page-header {
   border-bottom: 1px solid #ECECEC;
+  position: relative;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 @media screen and (max-width: 767.95px) {
   .page-header {
@@ -447,11 +450,18 @@ img {
 }
 
 .menu-container {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: aqua;
+  height: 796px;
+  padding-left: 40px;
+  padding-top: 48px;
+  background-color: #FFFFFF;
+}
+.menu-container.is-open {
+  display: block;
 }
 
 @media screen and (max-width: 767.95px) {

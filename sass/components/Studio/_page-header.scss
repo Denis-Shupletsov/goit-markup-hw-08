@@ -1,16 +1,10 @@
 .page-header {
     border-bottom: 1px solid #ECECEC;   
-
+    position: relative;
+    padding-top: 26px;
+padding-bottom: 26px;
     @media screen and (max-width: 767.95px) {
             padding-top: 16px;
             padding-bottom: 16px;
         }
-    
-        // &__page-main-nav {
-        //         @media screen and (max-width: 767.95px) {
-        //             display: flex;
-        //             align-items: center;
-        //             justify-content: space-between;
-        //         }
-        // }
 }
