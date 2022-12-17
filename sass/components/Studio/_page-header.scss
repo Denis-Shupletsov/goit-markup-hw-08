@@ -7,7 +7,7 @@
         }
     
         &__page-main-nav {
-                @media screen and (max-width: $mobile) {
+                @media screen and (max-width: 767.95px) {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;

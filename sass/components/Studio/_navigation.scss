@@ -9,14 +9,18 @@
 
             @media screen and (min-width: $tablet) {
                 display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 88px;
             }
         }
 
     &__site-nav {
         @media screen and (min-width: 1200px) {
                 display: flex;
-                margin-left: 93px;
                 align-items: center;
+                justify-content: center;
+                margin-left: 93px;
             }
         }
 
