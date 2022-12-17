@@ -276,7 +276,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -342,6 +342,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 767.95px) {
   .main-nav__site-nav {
@@ -439,102 +440,21 @@ img {
 .main-nav__menu-button.is-open .menu-button__icon-open-menu {
   display: none;
 }
+@media screen and (min-width: 768px) {
+  .main-nav__menu-button {
+    display: none;
+  }
+}
 
 .menu-container {
-  display: none;
-  position: fixed;
+  position: absolute;
+  top: 100%;
   left: 0;
   width: 100%;
-  height: 796px;
-  background-color: #FFFFFF;
-  padding: 48px 40px;
-}
-.menu-container.is-open {
-  display: flex;
-  top: 0;
-  overflow: scroll;
-  flex-direction: column;
+  background-color: aqua;
 }
 
-.modal-menu-list__item {
-  margin-bottom: 32px;
-}
-
-.modal-menu-list__item:last-child {
-  margin-bottom: 0;
-}
-
-.modal-menu-list__link {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  font-family: Roboto, sans-serif;
-  text-decoration: none;
-  color: #212121;
-}
-.modal-menu-list__link--current {
-  color: #2196F3;
-}
-
-.modal-menu-contacts {
-  margin-top: auto;
-}
-.modal-menu-contacts__item {
-  margin-bottom: 32px;
-}
-.modal-menu-contacts__item:last-child {
-  margin-bottom: 0px;
-}
-.modal-menu-contacts__link-tel {
-  font-family: "Roboto", sans-serif;
-  font-size: 34px;
-  font-weight: 500;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-}
-.modal-menu-contacts__link-mail {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.mobile-menu__socials {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 64px;
-}
-
-.mobile-menu__item {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-}
-.mobile-menu__item:last-child {
-  border-right: none;
-}
-.mobile-menu__item:first-child {
-  padding-left: 0;
-}
-
-.mobile-menu__link {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-}
-
-body.mobile-menu-open {
-  overflow: hidden;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.95px) {
   .info-nav {
     display: none;
   }

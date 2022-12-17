@@ -15,4 +15,8 @@
     &.is-open .menu-button__icon-open-menu {
         display: none;
     }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
 }
