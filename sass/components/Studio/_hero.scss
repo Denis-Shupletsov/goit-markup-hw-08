@@ -7,6 +7,12 @@
     background-position: center;
 
     &__hero-title {
+        @media screen and (max-width: 767.95px) {
+            width: 100%;
+            font-size: 26px;
+            line-height: 1.62;
+        }
+
         width: 696px;
         margin: 0px auto 30px;
 
@@ -19,6 +25,10 @@
     }
 
     &__button {
+        @media screen and (max-width: 767.95px) {
+            padding: 10px 24px;
+        }
+
         padding: 10px 30px;
     }
 

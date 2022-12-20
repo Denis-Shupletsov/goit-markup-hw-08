@@ -1,4 +1,5 @@
 .menu-container {
+    @media screen and (max-width: 767.95px) {
     display: none;
 
     position: absolute;
@@ -6,114 +7,109 @@
     left: 0;
     width: 100%;
     height: 796px;
-
+    
     padding: 48px 40px;
 
-    // background-color: $main-text-color;
     background-color: aqua;
 
     &.is-open {
         display: block;
+        
     }
-    
-    
-    
-    // 
-    // width: 100%;
     // height: 796px;
 
     // background-color: $main-text-color;
-    // padding: 48px 40px;
-    // // z-index: 10;
-
-    // &.is-open {
-    //     display: flex;
-    //     top: 0;
-    //     overflow: scroll;
-    //     flex-direction: column;
-    // }
+    
+    // z-index: 10;
+    }
 }
 
-// .modal-menu-list__item {
-//     margin-bottom: 32px;
-// }
+.modal-menu-list__item {
+    @media screen and (max-width: 767.95px) {
+        margin-bottom: 32px;
 
-// .modal-menu-list__item:last-child {
-//     margin-bottom: 0;
-// }
+            &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
 
-// .modal-menu-list__link {
-//     font-weight: 500;
-//     font-size: 40px;
-//     line-height: 1.17;
-//     letter-spacing: 0.02em;
-//     font-family: Roboto, sans-serif;
-//     text-decoration: none;
-//     color: $text-color;
+.modal-menu-list__link {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: $text-color;
 
-//     &--current {
-//         color: $focus-background-color;
-//     }
-// }
+    &--current {
+        color: $focus-background-color;
+    }
+}
 
-// .modal-menu-contacts {
-//     margin-top: auto;
+.modal-menu-contacts {
+    @media screen and (max-width: 767.95px) {
+        margin-top: 302px;
+    }
 
-//     &__item {
-//         margin-bottom: 32px;
+    &__item {
+        @media screen and (max-width: 767.95px) {
+            margin-bottom: 32px;
 
-//     &:last-child {
-//         margin-bottom: 0px;
-//     }
-//     }
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
 
-//     &__link-tel {
-//         font-family: 'Roboto', sans-serif;
-//         font-size: 34px;
-//         font-weight: 500;
-//         line-height: 1.18;
-//         letter-spacing: 0.02em;
-//         color: $focus-background-color;
-//     }
+    &__link-tel {
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1.18;
+        letter-spacing: 0.02em;
+        color: $focus-background-color;
+    }
 
-//     &__link-mail {
-//         font-family: 'Roboto', sans-serif;
-//         font-size: 24px;
-//         font-weight: 500;
-//         line-height: 1.17;
-//         letter-spacing: 0.02em;
-//         color: $secondary-color;
-//     }
-// }
+    &__link-mail {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: $secondary-color;
+    }
+}
 
-// .mobile-menu__socials {
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-top: 64px;
-// }
+.mobile-menu__socials {
+    @media screen and (max-width: 767.95px) {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 64px;
+    }
+}
 
-// .mobile-menu__item {
-//     padding-left: 10px;
-//     padding-right: 10px;
-//     border-right: 1px solid rgba(33, 33, 33, 0.2);
-//     &:last-child {
-//         border-right: none;
-//     }
+.mobile-menu__item {
+    @media screen and (max-width: 767.95px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    
+        &:last-child {
+            border-right: none;
+        }
+    
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
 
-//     &:first-child {
-//     padding-left: 0;
-// }
-// }
-
-// .mobile-menu__link {
-//     font-family: 'Roboto', sans-serif;
-//     font-size: 18px;
-//     font-weight: 500;
-//     line-height: 1.22;
-//     letter-spacing: 0.02em;
-//     color: $focus-background-color;
-// }
-
-// body.mobile-menu-open {
-//     overflow: hidden;
-// }
+.mobile-menu__link {
+    @media screen and (max-width: 767.95px) {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.22;
+        letter-spacing: 0.02em;
+        color: $focus-background-color;
+    }
+}
