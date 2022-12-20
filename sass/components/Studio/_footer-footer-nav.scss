@@ -3,8 +3,15 @@
     padding: 60px 0px;
 
     &__footer-social {
-        display: flex;
-        align-items: baseline;
+        @media screen and (max-width: 767.95px) {
+            
+        }
+
+
+        @media screen and (min-width: $desktop){
+            display: flex;
+            align-items: baseline;
+        }
     }
 }
 .container-footer__footer-logo {

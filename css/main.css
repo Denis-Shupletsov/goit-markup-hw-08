@@ -876,9 +876,11 @@ img {
   background-color: #2F303A;
   padding: 60px 0px;
 }
-.page-footer__footer-social {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 1200px) {
+  .page-footer__footer-social {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .container-footer__footer-logo {
