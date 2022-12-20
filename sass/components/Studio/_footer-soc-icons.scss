@@ -1,10 +1,19 @@
 .footer-soc-icons {
+    @media screen and (max-width: 767.95px) {
+        margin-top: 60px;
+        align-items: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+
     display: block;
     width: 206px;
     height: 80px;
     margin-left: 70px;
 
-    &__footer-soc-title {
+    &__footer-soc-title { 
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -14,6 +23,10 @@
     }
 }
 .footer-soc {
+    @media screen and (max-width: 767.95px) {
+        justify-content: center;
+    }
+
     display: flex;
     gap: 10px;
     align-items: center;
