@@ -876,6 +876,11 @@ img {
   background-color: #2F303A;
   padding: 60px 0px;
 }
+@media screen and (max-width: 767.95px) {
+  .page-footer__footer-social {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .page-footer__footer-social {
     display: flex;
@@ -898,6 +903,11 @@ img {
   display: flex;
   flex-direction: column;
   gap: 9px;
+}
+@media screen and (max-width: 767.95px) {
+  .footer-nav {
+    gap: 8px;
+  }
 }
 .footer-nav__link {
   text-decoration: none;
