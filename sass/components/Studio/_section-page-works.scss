@@ -1,3 +1,8 @@
+.section-subtitle-page {
+    @media screen and (max-width: 1199px) {
+            display: none;
+        }
+}
 .section__section-subtitle {
     @media screen and (max-width: 1199px) {
             display: none;
@@ -15,7 +20,7 @@
 
 .page {
 
-    @media screen and (min-width: $mobile) {
+    @media screen and (max-width: 767.95px) {
         display: none;
     }
     

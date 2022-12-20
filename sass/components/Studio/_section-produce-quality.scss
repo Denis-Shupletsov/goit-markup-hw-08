@@ -1,7 +1,7 @@
 .section {
-    @media screen and (min-width: $mobile) {
+    @media screen and (max-width: 767.95px) {
         padding-top: 60px;
-        
+        padding-bottom: 60px;
     }
 
     @media screen and (min-width: $tablet) {
@@ -16,7 +16,9 @@
 }
 
 .produce {
-    padding-bottom: 0px;
+    // padding-bottom: 0px;
+    // padding-bottom: 60px;
+    
 }
 
 .quality-teams {
@@ -25,8 +27,8 @@
 }
 
 .quality {
-    @media screen and (min-width: $mobile) {
-        
+    @media screen and (max-width: 767.95px) {
+            
             &-icon-group {
                 display: flex;
                 width: 100%;
@@ -49,6 +51,8 @@
                 text-align: center;
 
                 margin-bottom: 10px;
+
+                
             }
         
             &__section-text {
@@ -56,11 +60,9 @@
         
                 font-size: 14px;
                 line-height: 1.71;
+
             }
-        
-            & &__section-title+&__section-title {
-                margin-right: 30px;
-            }
+            
     }
 
     @media screen and (min-width: $tablet) {
