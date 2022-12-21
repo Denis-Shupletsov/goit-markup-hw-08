@@ -1,11 +1,15 @@
 .subscribe-footer {
-    @media screen and (max-width: 767.95px) {
+    @media screen and (max-width: 1199.95px) {
         margin-top: 60px;
         margin-left: 0;
         width: 100%;
         height: 156px;
     }
 
+    @media screen and (max-width: 1199.95px) {
+        width: 450px;
+        margin: auto;
+    }
     display: block;
     margin-left: 93px;
     width: 570px;
@@ -23,7 +27,7 @@
 }
 
 .subscribe-footer-form {
-    @media screen and (max-width: 767.95px) {
+    @media screen and (max-width: 1199.95px) {
         display: block;
     }
 
@@ -32,11 +36,10 @@
     align-items: center;
 
     &__subscribe-user {
-        @media screen and (max-width: 767.95px) {
+        @media screen and (max-width: 1199.95px) {
             display: inline-block;
             margin: 0;
         }
-
         margin-right: 12px;
     }
     
@@ -59,7 +62,7 @@
     }
 
     &__subscribe-button {
-        @media screen and (max-width: 767.95px) {
+        @media screen and (max-width: 1199.95px) {
             margin-top: 20px;
             display: inline-block;
         }

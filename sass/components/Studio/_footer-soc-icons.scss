@@ -6,6 +6,12 @@
         width: 100%;
     }
 
+    @media screen and (min-width: $tablet) {
+        display: inline-block;
+        text-align: center;
+        margin-left: 165px;
+    }
+
     display: block;
     width: 206px;
     height: 80px;
@@ -58,3 +64,5 @@
         fill: currentColor;
     }
 }
+
+@import url(./_subscribe-footer.scss);

@@ -14,12 +14,23 @@
         }
     }
 }
-.container-footer {
-    @media screen and (max-width: 1199.95px) {
-        display: inline-block;
-    }
-    
 
+.footer-social-list {
+    @media screen and (max-width: 1199.95px) {
+        margin-bottom: 60px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.container-footer {
+    @media screen and (min-width: $tablet) {
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 .container-footer__footer-logo {
@@ -33,6 +44,11 @@
     line-height: 1.19;
     text-decoration: none;
     color: $main-text-color;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 24px;
+        line-height: 1.17;
+    }
 }
 .footer-nav {
     @media screen and (max-width: 767.95px) {
@@ -72,3 +88,4 @@
         color: $focus-background-color;
     }
 }
+@import url(./_footer-soc-icons.scss);

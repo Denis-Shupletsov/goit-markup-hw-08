@@ -6,6 +6,8 @@ Document
 /**
 Use a better box model (opinionated).
 */
+@import url(./_footer-soc-icons.scss);
+@import url(./_subscribe-footer.scss);
 *,
 ::before,
 ::after {
@@ -1125,8 +1127,21 @@ img {
 }
 
 @media screen and (max-width: 1199.95px) {
+  .footer-social-list {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-social-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .container-footer {
     display: inline-block;
+    text-align: center;
   }
 }
 
@@ -1139,6 +1154,12 @@ img {
   line-height: 1.19;
   text-decoration: none;
   color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .container-footer__footer-logo {
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }
 
 .footer-nav {
@@ -1186,6 +1207,13 @@ img {
     align-items: center;
     margin-left: 0;
     width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-soc-icons {
+    display: inline-block;
+    text-align: center;
+    margin-left: 165px;
   }
 }
 .footer-soc-icons__footer-soc-title {
@@ -1237,12 +1265,18 @@ img {
   width: 570px;
   height: 86px;
 }
-@media screen and (max-width: 767.95px) {
+@media screen and (max-width: 1199.95px) {
   .subscribe-footer {
     margin-top: 60px;
     margin-left: 0;
     width: 100%;
     height: 156px;
+  }
+}
+@media screen and (max-width: 1199.95px) {
+  .subscribe-footer {
+    width: 450px;
+    margin: auto;
   }
 }
 .subscribe-footer__subscribe-footer-text {
@@ -1259,7 +1293,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 767.95px) {
+@media screen and (max-width: 1199.95px) {
   .subscribe-footer-form {
     display: block;
   }
@@ -1267,7 +1301,7 @@ img {
 .subscribe-footer-form__subscribe-user {
   margin-right: 12px;
 }
-@media screen and (max-width: 767.95px) {
+@media screen and (max-width: 1199.95px) {
   .subscribe-footer-form__subscribe-user {
     display: inline-block;
     margin: 0;
@@ -1292,7 +1326,7 @@ img {
   height: 50px;
   padding: 10px;
 }
-@media screen and (max-width: 767.95px) {
+@media screen and (max-width: 1199.95px) {
   .subscribe-footer-form__subscribe-button {
     margin-top: 20px;
     display: inline-block;
