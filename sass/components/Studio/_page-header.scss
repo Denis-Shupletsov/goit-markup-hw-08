@@ -1,9 +1,6 @@
 .page-header {
     position: relative;
-
     border-bottom: 1px solid #ECECEC;   
-    padding-top: 26px;
-    padding-bottom: 26px;
 
     @media screen and (max-width: 767.95px) {
             padding-top: 16px;
@@ -11,8 +8,10 @@
         }
 
         &__page-main-nav {
-            @media screen and (min-width: $desktop) {
+            @media screen and (min-width: $tablet) {
                 display: flex;
+                justify-content: center;
+                align-items: center;
             }
             
         }
