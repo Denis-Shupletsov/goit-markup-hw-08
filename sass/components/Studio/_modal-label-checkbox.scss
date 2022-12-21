@@ -1,4 +1,9 @@
 .modal-label-checkbox {
+    @media screen and (max-width: 1199.95px) {
+        font-size: 12px;
+        line-height: 1.17;
+    }
+
     position: relative;
 
     display: flex;
@@ -12,11 +17,18 @@
     color: $secondary-color;
 
     &__terms {
+        @media screen and (max-width: 1199.95px) {
+            margin-left: 2px;
+        }
             color: $focus-background-color;
         }
 }
 
 .checkbox-icon {
+
+    @media screen and (max-width: 1199.95px) {
+        left: 0;
+    }
     display: block;
     position: absolute;
     top: 45%;
@@ -24,7 +36,7 @@
     width: 16px;
     height: 15px;
 
-    display: block;
+    
     justify-content: center;
 
     margin-right: 7px;

@@ -24,6 +24,12 @@
 }
 
 .modal {
+    @media screen and (max-width: 767.95px) {
+        width: 100%;
+        max-width: 450px;
+        height: 609px;
+    }
+
     display: flex;
     justify-content: flex-end;
     padding: 40px 40px;
