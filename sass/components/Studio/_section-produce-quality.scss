@@ -1,12 +1,7 @@
 .section {
-    @media screen and (max-width: 767.95px) {
+    @media screen and (max-width: 1199.95px) {
         padding-top: 60px;
         padding-bottom: 60px;
-    }
-
-    @media screen and (min-width: $tablet) {
-        
-
     }
 
     @media screen and (min-width: $desktop) {
@@ -60,7 +55,49 @@
     }
 
     @media screen and (min-width: $tablet) {
-
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+        
+        &__icon {
+                @media screen and (min-width: $tablet) {
+                    width: calc((100% - 4 * 15px) / 2);
+                    margin: 15px;
+                }
+            }
+        
+            &-icon-group {
+                display: flex;
+                width: 100%;
+                height: 120px;
+                align-items: center;
+                justify-content: center;
+        
+                border-radius: 4px;
+                background-color: $button-group-color;
+                margin-bottom: 30px;
+            }
+        
+            &__section-title {
+                color: $text-color;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 1.14;
+                text-transform: uppercase;
+        
+                margin-bottom: 10px;
+            }
+        
+            &__section-text {
+                color: $secondary-color;
+        
+                font-size: 14px;
+                line-height: 1.71;
+            }
+        
+            & &__section-title+&__section-title {
+                margin-right: 30px;
+            }
     }
 
     @media screen and (min-width: $desktop) {
