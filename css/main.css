@@ -464,7 +464,6 @@ img {
     height: 796px;
     padding: 48px 40px;
     background-color: aqua;
-    overflow-y: scroll;
   }
   .menu-container.is-open {
     display: block;
@@ -1197,7 +1196,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 767.95px) {
+@media screen and (max-width: 1199.95px) {
   .modal {
     width: 100%;
     max-width: 450px;

@@ -1,6 +1,4 @@
 .menu-container {
-    
-
     @media screen and (max-width: 767.95px) {
     display: none;
 
@@ -9,12 +7,12 @@
     left: 0;
     width: 100%;
     height: 796px;
-    // transform: translate(-50%, -50%);
+    
     padding: 48px 40px;
 
     background-color: aqua;
     
-    overflow-y: scroll;
+    // overflow-y: scroll;
 
     &.is-open {
         display: block;
@@ -23,7 +21,7 @@
 
     // background-color: $main-text-color;
     
-    // z-index: 10;
+    // z-index: 999;
     }
 
     @media screen and (min-width: $tablet) {
