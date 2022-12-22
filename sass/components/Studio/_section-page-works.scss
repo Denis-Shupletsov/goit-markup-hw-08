@@ -1,8 +1,11 @@
 .section-subtitle-page {
+    padding-bottom: 94px;
+
     @media screen and (max-width: 1199px) {
             display: none;
         }
 }
+
 .section__section-subtitle {
     @media screen and (max-width: 1199px) {
             display: none;

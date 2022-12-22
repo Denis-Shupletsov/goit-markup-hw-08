@@ -3,7 +3,7 @@
         display: none;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: block;
         margin-left: auto;
         padding-top: 21px;
@@ -12,13 +12,13 @@
     }
 
     &__item {
-        @media screen and (min-width: 768px) and (max-width: 1199px) {
+        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
             margin-bottom: 10px;
         }
     }
 
     &__item-tel {
-        @media screen and (min-width: 768px) and (max-width: 1199px) {
+        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
             margin-bottom: 0px;
         }
     }

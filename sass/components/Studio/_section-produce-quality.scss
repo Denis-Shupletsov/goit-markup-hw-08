@@ -6,7 +6,6 @@
 
     @media screen and (min-width: $desktop) {
         padding-top: 94px;
-        padding-bottom: 94px;
     }
 }
 
@@ -54,13 +53,13 @@
             
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
         
         &__icon {
-                @media screen and (min-width: $tablet) {
+                @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
                     width: calc((100% - 4 * 15px) / 2);
                     margin: 15px;
                 }
@@ -103,7 +102,7 @@
     @media screen and (min-width: $desktop) {
             display: flex;
             gap: 30px;
-        
+            
             &__icon {
                 display: block;
             }
