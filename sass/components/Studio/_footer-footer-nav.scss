@@ -7,10 +7,9 @@
             text-align: center;
         }
 
-
         @media screen and (min-width: $desktop){
             display: flex;
-            align-items: baseline;
+            justify-content: center;
         }
     }
 }
@@ -20,17 +19,22 @@
         margin-bottom: 60px;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: flex;
         justify-content: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
     }
 }
 
 .container-footer {
-    @media screen and (min-width: $tablet) {
-        display: inline-block;
-        text-align: center;
-    }
+    // width: 100%;
+        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
+            display: inline-block;
+            text-align: center;
+        }
 }
 
 .container-footer__footer-logo {

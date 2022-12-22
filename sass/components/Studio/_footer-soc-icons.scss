@@ -6,7 +6,7 @@
         width: 100%;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: inline-block;
         text-align: center;
         margin-left: 165px;

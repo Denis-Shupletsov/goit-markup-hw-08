@@ -10,7 +10,7 @@
         margin-bottom: 30px;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         font-size: 28px;
         line-height: 1.14;
     }
@@ -23,7 +23,7 @@
         margin: -15px;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px){
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
@@ -33,9 +33,6 @@
         @media screen and (max-width: 767.95px) {
             width: calc((100% - 4 * 15px) / 2);
             margin: -15px;
-        }
-
-        @media screen and (max-width: 767.95px) {
             margin: 15px;
         }
     }
@@ -53,7 +50,7 @@
             width: 100%;
         }
 
-        @media screen and (min-width: $tablet) {
+        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
             width: 226px;
             margin: 15px;
         }

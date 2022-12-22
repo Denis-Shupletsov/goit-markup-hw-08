@@ -703,6 +703,7 @@ img {
 @media screen and (min-width: 1200px) {
   .section {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -824,7 +825,7 @@ img {
 }
 
 .section-subtitle-page {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 @media screen and (max-width: 1199px) {
   .section-subtitle-page {
@@ -1041,7 +1042,7 @@ img {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .section__section-subtitle--section-heading {
     font-size: 28px;
     line-height: 1.14;
@@ -1055,7 +1056,7 @@ img {
     margin: -15px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .company {
     display: flex;
     flex-wrap: wrap;
@@ -1066,10 +1067,6 @@ img {
   .company-items {
     width: calc((100% - 60px) / 2);
     margin: -15px;
-  }
-}
-@media screen and (max-width: 767.95px) {
-  .company-items {
     margin: 15px;
   }
 }
@@ -1098,7 +1095,7 @@ img {
     width: 100%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .company__company-link {
     width: 226px;
     margin: 15px;
@@ -1124,7 +1121,7 @@ img {
 @media screen and (min-width: 1200px) {
   .page-footer__footer-social {
     display: flex;
-    align-items: baseline;
+    justify-content: center;
   }
 }
 
@@ -1133,14 +1130,19 @@ img {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .footer-social-list {
     display: flex;
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-social-list {
+    display: flex;
+  }
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .container-footer {
     display: inline-block;
     text-align: center;
@@ -1211,7 +1213,7 @@ img {
     width: 100%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .footer-soc-icons {
     display: inline-block;
     text-align: center;
@@ -1279,6 +1281,7 @@ img {
   .subscribe-footer {
     width: 450px;
     margin: auto;
+    text-align: center;
   }
 }
 .subscribe-footer__subscribe-footer-text {
