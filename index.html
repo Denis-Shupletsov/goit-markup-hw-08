@@ -509,16 +509,18 @@
 
         <div class="subscribe-footer">
             <p class="subscribe-footer__subscribe-footer-text">Підпишіться на розсилку</p>
-            <form class="subscribe-footer-form">
-                <div class="subscribe-footer-form__subscribe-user">
-                    <label class="subscribe-footer-form__subscribe-label" for="mail"></label>
-                    <input class="subscribe-footer-form__subscribe-footer-input" type="text" name="user-email" id="mail" placeholder="E-mail">
-                </div>
-                    <button class="subscribe-footer-form__subscribe-button hero__button--button" type="submit">Підписатися
-                        <svg width="24px" height="24px" class="subscribe-footer-form__fotter-button-icon">
-                            <use href="./img/symbol-defs.svg#icon-icon-send"></use></svg>
-                    </button>
-            </form>
+            <div class="subscribe-form">
+                <form class="subscribe-footer-form">
+                    <div class="subscribe-footer-form__subscribe-user">
+                        <label class="subscribe-footer-form__subscribe-label" for="mail"></label>
+                        <input class="subscribe-footer-form__subscribe-footer-input" type="text" name="user-email" id="mail" placeholder="E-mail">
+                    </div>
+                        <button class="subscribe-footer-form__subscribe-button hero__button--button" type="submit">Підписатися
+                            <svg width="24px" height="24px" class="subscribe-footer-form__fotter-button-icon">
+                                <use href="./img/symbol-defs.svg#icon-icon-send"></use></svg>
+                        </button>
+                </form>
+            </div>
         </div>
     </div>
 </footer>

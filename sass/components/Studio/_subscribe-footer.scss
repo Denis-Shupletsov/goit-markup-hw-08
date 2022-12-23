@@ -7,11 +7,9 @@
     }
 
     @media screen and (max-width: 1199.95px) {
-        width: 450px;
         margin: auto;
         text-align: center;
     }
-    display: block;
     margin-left: 93px;
     width: 570px;
     height: 86px;
@@ -29,7 +27,8 @@
 
 .subscribe-footer-form {
     @media screen and (max-width: 1199.95px) {
-        display: block;
+        flex-direction: column;
+        text-align: center;   
     }
 
     display: flex;
@@ -37,11 +36,9 @@
     align-items: center;
 
     &__subscribe-user {
-        @media screen and (max-width: 1199.95px) {
-            display: inline-block;
-            margin: 0;
+        @media screen and (min-width: $desktop) {
+            margin-right: 12px;
         }
-        margin-right: 12px;
     }
     
     &__subscribe-footer-input {

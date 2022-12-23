@@ -659,21 +659,21 @@ img {
 @media screen and (max-width: 767.95px) {
   .hero {
     background-color: #2F303A;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-480@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-mob1x.jpg);
     height: 400px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     background-color: #2F303A;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-768@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-tablet1x.jpg);
     height: 400px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     background-color: #2F303A;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-1600@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-desktop1x.jpg);
     height: 600px;
   }
 }
@@ -1288,7 +1288,6 @@ img {
 }
 
 .subscribe-footer {
-  display: block;
   margin-left: 93px;
   width: 570px;
   height: 86px;
@@ -1303,7 +1302,6 @@ img {
 }
 @media screen and (max-width: 1199.95px) {
   .subscribe-footer {
-    width: 450px;
     margin: auto;
     text-align: center;
   }
@@ -1324,16 +1322,13 @@ img {
 }
 @media screen and (max-width: 1199.95px) {
   .subscribe-footer-form {
-    display: block;
+    flex-direction: column;
+    text-align: center;
   }
 }
-.subscribe-footer-form__subscribe-user {
-  margin-right: 12px;
-}
-@media screen and (max-width: 1199.95px) {
+@media screen and (min-width: 1200px) {
   .subscribe-footer-form__subscribe-user {
-    display: inline-block;
-    margin: 0;
+    margin-right: 12px;
   }
 }
 .subscribe-footer-form__subscribe-footer-input {
