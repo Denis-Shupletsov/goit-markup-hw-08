@@ -650,6 +650,13 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/main-background.jpg);
   background-position: center;
 }
+@media screen and (max-width: 767.95px) {
+  .hero {
+    background-color: #2F303A;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/main-back-mob@1x.jpg);
+    background-position: center;
+  }
+}
 .hero__hero-title {
   width: 696px;
   margin: 0px auto 30px;
