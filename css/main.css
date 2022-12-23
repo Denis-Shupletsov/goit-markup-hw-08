@@ -960,14 +960,14 @@ img {
     text-align: center;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .player {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .player__card {
     width: calc((100% - 60px) / 2);
     margin: 15px;
