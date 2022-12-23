@@ -646,26 +646,34 @@ img {
 .hero {
   padding: 200px 0px;
   text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1199.95px) {
+  .hero {
+    padding: 118px 0;
+  }
 }
 @media screen and (max-width: 767.95px) {
   .hero {
     background-color: #2F303A;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-480@1x.jpg);
-    background-position: center;
+    height: 400px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     background-color: #2F303A;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-768@1x.jpg);
-    background-position: center;
+    height: 400px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     background-color: #2F303A;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-1600@1x.jpg);
-    background-position: center;
+    height: 600px;
   }
 }
 .hero__hero-title {
@@ -680,7 +688,7 @@ img {
 }
 @media screen and (max-width: 1199.95px) {
   .hero__hero-title {
-    width: 360px;
+    max-width: 360px;
     font-size: 26px;
     line-height: 1.62;
   }
@@ -933,6 +941,7 @@ img {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.122), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
   }
   .player__section-name {
     padding-top: 30px;
@@ -951,17 +960,8 @@ img {
     text-align: center;
   }
 }
-@media screen and (max-width: 1199.95px) {
-  .player {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
-}
-@media screen and (max-width: 1199.95px) {
+@media screen and (min-width: 768px) {
   .player__card {
-    width: calc((100% - 60px) / 2);
-    margin: 15px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.122), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
