@@ -16,7 +16,7 @@
     }
 
 }
-        .menu-container__icon-close-menu {
+        .menu-container__icon-close-menu  {
             display: none;
         }
 
@@ -24,7 +24,7 @@
             display: block;
         }
 
-        .open-menu-button .menu-button__icon-open-menu {
+        .open-menu-button.is-open .menu-container__icon-close-menu {
             display: none;
         }
 
@@ -36,6 +36,7 @@
             opacity: 1;
         }
 
+                
 
 
 

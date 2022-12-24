@@ -467,7 +467,7 @@ img {
   display: block;
 }
 
-.open-menu-button .menu-button__icon-open-menu {
+.open-menu-button.is-open .menu-container__icon-close-menu {
   display: none;
 }
 
@@ -489,12 +489,6 @@ img {
     padding: 0;
     background-color: rgba(0, 0, 0, 0.2);
   }
-}
-
-.mobile-menu.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
 }
 
 @media screen and (max-width: 767.95px) {

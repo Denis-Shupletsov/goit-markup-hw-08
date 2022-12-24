@@ -10,11 +10,6 @@
     }
 }
 
-.mobile-menu.is-hidden {
-        opacity: 0;
-            pointer-events: none;
-            visibility: hidden;
-}
 .menu-container {
     @media screen and (max-width: 767.95px) {
         height: 796px;
