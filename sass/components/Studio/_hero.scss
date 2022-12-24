@@ -11,21 +11,30 @@
 
     @media screen and (max-width: 767.95px) {
         background-color: #2F303A;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-mob1x.jpg);
         height: 400px;
+        @include retina {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+                            url(../img/Hero/main-back-mob1x.jpg);
+        }
     }
 
     @media screen and (min-width: $tablet) {
         background-color: #2F303A;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-tablet1x.jpg);
         height: 400px;
+        @include retina {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+                                url(../img/Hero/main-back-tablet1x.jpg);
+        }
     }
 
 
     @media screen and (min-width: $desktop) {
         background-color: #2F303A;
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero/main-back-desktop1x.jpg);
         height: 600px;
+        @include retina {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+                                url(../img/Hero/main-back-desktop1x.jpg);
+        }
     }
     
 
