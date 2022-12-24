@@ -475,7 +475,7 @@ img {
   opacity: 0;
 }
 
-.close-menu-button.is-open .menu-container__icon-close-menu {
+.close-menu-button .menu-container__icon-close-menu {
   opacity: 1;
 }
 
@@ -486,6 +486,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 0;
     background-color: rgba(0, 0, 0, 0.2);
   }
 }
@@ -526,7 +527,8 @@ img {
   z-index: 500;
   cursor: pointer;
 }
-.menu-container__menu-button:hover .menu-container__icon, .menu-container__menu-button:focus .menu-container__icon {
+.menu-container .close-menu-button:hover .menu-container__icon,
+.menu-container .close-menu-button:focus .menu-container__icon {
   fill: #2196F3;
 }
 
