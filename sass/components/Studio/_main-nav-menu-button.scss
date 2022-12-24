@@ -10,33 +10,38 @@
     height: 40px;
     z-index: 500;
     cursor: pointer;
+    
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
 
-        & .menu-button__icon-close-menu {
+}
+        .menu-container__menu-button .menu-container__icon-close-menu {
             display: none;
         }
 
-        &.is-open .menu-button__icon-close-menu {
+        .menu-container__menu-button.is-open .menu-container__icon-close-menu {
             display: block;
         }
 
-        &.is-open .menu-button__icon-open-menu {
+        .main-nav__menu-button.is-open .menu-button__icon-open-menu {
             display: none;
         }
 
-        @media screen and (min-width: $tablet) {
-            display: none;
-        }
+        
 
-        &.is-open .menu-button__icon-open-menu {
+        .main-nav__menu-button.is-open .menu-button__icon-open-menu {
             opacity: 0;
         }
 
-        &.is-open .menu-button__icon-close-menu {
+        .menu-container__menu-button.is-open .menu-container__icon-close-menu {
             opacity: 1;
         }
-}
 
-.menu-button__icon-close-menu {
+
+
+
+.menu-container__icon-close-menu {
     opacity: 0;
     transition: 500ms;
 }
