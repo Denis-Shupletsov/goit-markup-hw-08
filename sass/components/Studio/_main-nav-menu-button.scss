@@ -1,4 +1,4 @@
-.main-nav__menu-button {
+.open-menu-button {
     position: relative;
 
     margin-left: auto;
@@ -20,20 +20,19 @@
             display: none;
         }
 
-        .menu-container__menu-button.is-open .menu-container__icon-close-menu {
+        .close-menu-button.is-open .menu-container__icon-close-menu {
             display: block;
         }
 
-        .main-nav__menu-button.is-open .menu-button__icon-open-menu {
+        .open-menu-button .menu-button__icon-open-menu {
             display: none;
         }
 
-
-        .main-nav__menu-button.is-open .menu-button__icon-open-menu {
+        .open-menu-button .menu-button__icon-open-menu {
             opacity: 0;
         }
 
-        .menu-container__menu-button.is-open .menu-container__icon-close-menu {
+        .close-menu-button.is-open .menu-container__icon-close-menu {
             opacity: 1;
         }
 
