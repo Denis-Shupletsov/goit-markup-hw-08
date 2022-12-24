@@ -27,6 +27,10 @@
     &.is-open {
         transform: translateX(0);
     }
+
+    &__menu-button {
+        border: none;
+    }
 }
 
 .modal-menu-list__item {

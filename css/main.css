@@ -459,7 +459,7 @@ img {
   }
 }
 
-.menu-container__menu-button .menu-container__icon-close-menu {
+.menu-container__icon-close-menu {
   display: none;
 }
 
@@ -516,6 +516,9 @@ img {
 }
 .menu-container.is-open {
   transform: translateX(0);
+}
+.menu-container__menu-button {
+  border: none;
 }
 
 @media screen and (max-width: 767.95px) {
