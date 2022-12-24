@@ -479,16 +479,6 @@ img {
   opacity: 1;
 }
 
-.menu-container__icon-close-menu {
-  opacity: 0;
-  transition: 500ms;
-}
-
-.main-nav__menu-button:hover .menu-button__icon-close-menu,
-.main-nav__menu-button:focus .menu-button__icon-close-menu {
-  fill: #2196F3;
-}
-
 @media screen and (max-width: 767.95px) {
   .mobile-menu {
     position: fixed;
@@ -518,7 +508,20 @@ img {
   transform: translateX(0);
 }
 .menu-container__menu-button {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
   border: none;
+  background-color: transparent;
+  padding: 0;
+  z-index: 500;
+  cursor: pointer;
+}
+.menu-container__menu-button:hover .menu-container__icon, .menu-container__menu-button:focus .menu-container__icon {
+  fill: #2196F3;
 }
 
 @media screen and (max-width: 767.95px) {

@@ -40,12 +40,4 @@
 
 
 
-.menu-container__icon-close-menu {
-    opacity: 0;
-    transition: 500ms;
-}
 
-.main-nav__menu-button:hover .menu-button__icon-close-menu, 
-.main-nav__menu-button:focus .menu-button__icon-close-menu {
-    fill: $focus-background-color;
-}

@@ -29,7 +29,26 @@
     }
 
     &__menu-button {
+        display: flex;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 40px;
+        height: 40px;
+        
         border: none;
+        background-color: transparent;
+        padding: 0;
+        
+        z-index: 500;
+        cursor: pointer;
+        
+        
+    }
+    
+    &__menu-button:hover .menu-container__icon,
+    &__menu-button:focus .menu-container__icon {
+        fill: $focus-background-color;
     }
 }
 
