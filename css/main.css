@@ -6,8 +6,6 @@ Document
 /**
 Use a better box model (opinionated).
 */
-@import url(./_footer-soc-icons.scss);
-@import url(./_subscribe-footer.scss);
 *,
 ::before,
 ::after {
