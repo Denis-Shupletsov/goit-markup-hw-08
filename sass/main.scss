@@ -1,13 +1,13 @@
-// /Нормализатор/
+                    // /Нормализатор/ 
 @import "./base/normalize";
 
-// /Переменные/
+                    // /Переменные/ 
 @import "./utils/variables";
 
-// /Стили по умолчанию/
+                    // /Стили по умолчанию/ 
 @import "./utils/placeholders";
 
-// Студия
+                    // Студия
 @import "./components/Studio/page-header";
 
 @import "./components/Studio/logo";
@@ -30,6 +30,6 @@
 @import "./components/Studio/modal-form";
 @import "./components/Studio/modal-label-checkbox";
 
-// Портфолио
+                    // Портфолио
 @import "./components/Portfolio/portfolio-hero-button";
 @import "./components/Portfolio/figure-products";
