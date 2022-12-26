@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,101 +8,115 @@
     <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
-                                        <!--header  -->
-                                        
+    <!--header  -->
+
     <header class="page-header">
-    
+
         <div class="container page-header__page-main-nav">
-    
-                                        <!-- Лого -->
+
+            <!-- Лого -->
             <nav class="main-nav">
                 <a href="/" class="logo page-header__logo"><span style="color: #2196F3;">Web</span>Studio</a>
-    
-                                    <!-- Кнопка меню -->
-                <button type="button" class="main-nav__menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-                    <svg class="menu-button__icon" width="40px" height="40px" aria-label="Переключатель мобильного меню">
-                        <use class="menu-button__icon-close-menu" href="./img/symbol-defs.svg#icon-close_menu"></use>
+
+                <!-- Кнопка меню -->
+                <button type="button" class="open-menu-button" aria-expanded="false" aria-controls="menu-container"
+                    js-open-menu>
+                    <svg class="menu-button__icon" width="40px" height="40px"
+                        aria-label="Переключатель мобильного меню">
                         <use class="menu-button__icon-open-menu" href="./img/symbol-defs.svg#icon-open_menu"></use>
                     </svg>
                 </button>
-    
-                                    <!-- Мобильное меню -->
-    
-                <div class="menu-container is-open" id="menu-container" data-menu>
+
+                <!-- Мобильное меню -->
+
+                <div class="menu-container" id="menu-container" js-menu-container>
+
+                    <button type="button" class="close-menu-button is-open" aria-expanded="false"
+                        aria-controls="menu-container" js-close-menu>
+                        <svg class="menu-container__icon" width="40px" height="40px"
+                            aria-label="Переключатель мобильного меню">
+                            <use class="menu-container__icon-close-menu" href="./img/symbol-defs.svg#icon-close_menu">
+                            </use>
+
+                        </svg>
+                    </button>
+
                     <ul class="modal-menu-list list">
                         <li class="modal-menu-list__item">
-                            <a href="./index.html"
-                                class="modal-menu-list__link  link">Студія</a>
+                            <a href="./index.html" class="modal-menu-list__link link">Студія</a>
                         </li>
                         <li class="modal-menu-list__item">
-                            <a href="./portfolio.html" class="modal-menu-list__link modal-menu-list__link--current link">Портфоліо</a>
+                            <a href="./portfolio.html"
+                                class="modal-menu-list__link modal-menu-list__link--current link">Портфоліо</a>
                         </li>
                         <li class="modal-menu-list__item">
                             <a href="Контакти" class="modal-menu-list__link link">Контакти</a>
                         </li>
                     </ul>
-    
+
                     <ul class="modal-menu-contacts list">
                         <li class="modal-menu-contacts__item">
-                            <a href="mailto:info@devstudio.com" class="modal-menu-contacts__link-tel link list">+38 096 111
-                                11 11</a>
+                            <a href="mailto:info@devstudio.com" class="modal-menu-contacts__link-tel link list">+38 096
+                                111 11 11</a>
                         </li>
                         <li class="modal-menu-contacts__item">
                             <a href="tel:+380961111111"
                                 class="modal-menu-contacts__link-mail link list">info@devstudio.com</a>
                         </li>
                     </ul>
-    
+
                     <ul class="mobile-menu__socials list">
                         <li class="mobile-menu__item">
                             <a href="#" class="mobile-menu__link link list" target="_blank">Instagram</a>
                         </li>
-    
+
                         <li class="mobile-menu__item">
                             <a href="#" class="mobile-menu__link link list" target="_blank">Twitter</a>
                         </li>
-    
+
                         <li class="mobile-menu__item">
                             <a href="#" class="mobile-menu__link link list" target="_blank">Facebook</a>
                         </li>
-    
+
                         <li class="mobile-menu__item">
                             <a href="#" class="mobile-menu__link link list" target="_blank">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
-    
+
                 <div class="main-nav">
                     <ul class="main-nav__site-nav list">
                         <li class="main-nav__item">
                             <a href="./index.html" class="main-nav__link">Студія</a>
                         </li>
-                
+
                         <li class="main-nav__item">
                             <a href="./portfolio.html"
                                 class="main-nav__link-portfolio main-nav__link-portfolio--activ main-nav__link">Портфоліо</a>
                         </li>
-                
+
                         <li class="main-nav__item"><a href="Контакти" class="main-nav__link">Контакти</a>
                         </li>
                     </ul>
                 </div>
             </nav>
 
-                                    <!--Контакты header -->
+            <!--Контакты header -->
             <ul class="info-nav list">
                 <li class="info-nav__item"><a href="mailto:info@devstudio.com" class="info-nav__link info-nav__mail">
                         <svg class="info-nav__icon-mail" width="16px" height="12px">
                             <use href="./img/symbol-defs.svg#icon-envelope"></use>
                         </svg> info@devstudio.com</a>
                 </li>
-    
+
                 <li class="info-nav__item info-nav__item-tel"><a href="tel:+380961111111"
                         class="info-nav__link info-nav__tel">
                         <svg class="info-nav__icon-mobile" width="10px" height="16px">
@@ -111,150 +126,173 @@
             </ul>
         </div>
     </header>
-    
-                            <!--hero-filter-quality-teams-filter-button  -->
+
+    <!--hero-filter-quality-teams-filter-button  -->
     <main>
         <section class="hero-filter">
             <div class="container">
-            <h1 class="quality-teams">Портфоліо</h1>
+                <h1 class="quality-teams">Портфоліо</h1>
                 <ul class="filter list">
-                    <li class="filter__filter-button"><button type="button" class="filter__button-portfolio">Усі</button></li>    
-                    <li class="filter__filter-button"><button type="button" class="filter__button-portfolio">Веб-сайти</button></li>    
-                    <li class="filter__filter-button"><button type="button" class="filter__button-portfolio">Додатки</button></li>    
-                    <li class="filter__filter-button"><button type="button" class="filter__button-portfolio">Дизайн</button></li>    
-                    <li class="filter__filter-button"><button type="button" class="filter__button-portfolio">Маркетинг</button></li>    
+                    <li class="filter__filter-button"><button type="button"
+                            class="filter__button-portfolio">Усі</button></li>
+                    <li class="filter__filter-button"><button type="button"
+                            class="filter__button-portfolio">Веб-сайти</button></li>
+                    <li class="filter__filter-button"><button type="button"
+                            class="filter__button-portfolio">Додатки</button></li>
+                    <li class="filter__filter-button"><button type="button"
+                            class="filter__button-portfolio">Дизайн</button></li>
+                    <li class="filter__filter-button"><button type="button"
+                            class="filter__button-portfolio">Маркетинг</button></li>
                 </ul>
-                                            <!--figure-figure-link-->
+                <!--figure-figure-link-->
                 <ul class="figure list">
                     <li class="products">
                         <a class="products__figure-link list" href="Веб-сайт">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img1.jpg" alt="Веб-сайт" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Технокряк</h2>
                                 <p class="products__figure-text list">Веб-сайт</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Дизайн">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img2.jpg" alt="Дизайн" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Постер New Orlean vs Golden Star</h2>
                                 <p class="products__figure-text list">Дизайн</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Додаток">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img3.jpg" alt="Додаток" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Ресторан Seafood</h2>
                                 <p class="products__figure-text list">Додаток</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Маркетинг">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img4.jpg" alt="Маркетинг" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Проєкт Prime</h2>
                                 <p class="products__figure-text list">Маркетинг</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Додаток">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img5.jpg" alt="Додаток" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Проєкт Boxes</h2>
                                 <p class="products__figure-text list">Додаток</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Веб-сайт">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img6.jpg" alt="Веб-сайт" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Inspiration has no Borders</h2>
                                 <p class="products__figure-text list">Веб-сайт</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Дизайн">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img7.jpg" alt="Дизайн" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Видання Limited Edition</h2>
                                 <p class="products__figure-text list">Дизайн</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Маркетинг">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img8.jpg" alt="Маркетинг" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Проєкт LAB</h2>
                                 <p class="products__figure-text list">Маркетинг</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
 
                     <li class="products">
                         <a class="products__figure-link list" href="Додаток">
                             <div class="products__figure-link-website">
                                 <img src="./img/Портфолио/img9.jpg" alt="Додаток" width="370">
-                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                                        дозволить відвідувачу отримати
-                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
+                                    рівнем функціоналу та сервісів. Все це
+                                    дозволить відвідувачу отримати
+                                    вичерпні відомості про компанію чи приватну особу.</p>
                             </div>
                             <div class="products__elements-products">
                                 <h2 class="products__figure-title list">Growing Business</h2>
                                 <p class="products__figure-text list">Додаток</p>
-                            </div></a>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <!-- page-footer-logo-footer-nav -->
-    
+
     <footer class="page-footer">
         <div class="container page-footer__footer-social list">
             <div class="footer-social-list list">
@@ -274,7 +312,7 @@
                         </ul>
                     </address>
                 </div>
-    
+
                 <!-- footer-soc-title-soclink -->
                 <div class="conteiner footer-soc-icons">
                     <p class="footer-soc-icons__footer-soc-title">ПРИЄДНУЙТЕСЬ</p>
@@ -285,21 +323,21 @@
                                     <use href="./img/symbol-defs.svg#icon-instagram-2"></use>
                                 </svg></a>
                         </li>
-    
+
                         <li class="footer-soc__footer-soclink">
                             <a href="#" class="footer-soc__footer-icons-links" target="_blank">
                                 <svg width="20px" height="20px" class="footer-icons">
                                     <use href="./img/symbol-defs.svg#icon-twitter-1"></use>
                                 </svg></a>
                         </li>
-    
+
                         <li class="footer-soc__footer-soclink">
                             <a href="#" class="footer-soc__footer-icons-links" target="_blank">
                                 <svg width="20px" height="20px" class="footer-icons">
                                     <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
                                 </svg></a>
                         </li>
-    
+
                         <li class="footer-soc__footer-soclink">
                             <a href="#" class="footer-soc__footer-icons-links" target="_blank">
                                 <svg width="20px" height="20px" class="footer-icons">
@@ -309,7 +347,7 @@
                     </ul>
                 </div>
             </div>
-    
+
             <div class="subscribe-footer">
                 <p class="subscribe-footer__subscribe-footer-text">Підпишіться на розсилку</p>
                 <div class="subscribe-form">
@@ -332,4 +370,5 @@
     </footer>
     <script src="./js/mobile-menu.js"></script>
 </body>
+
 </html>
