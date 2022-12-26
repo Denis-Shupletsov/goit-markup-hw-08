@@ -17,15 +17,16 @@
     height: 80px;
     margin-left: 70px;
 
-    &__footer-soc-title { 
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: $main-text-color;
+    &__footer-soc-title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: $main-text-color;
     }
 }
+
 .footer-soc {
     @media screen and (max-width: 767.95px) {
         justify-content: center;
@@ -64,5 +65,3 @@
         fill: currentColor;
     }
 }
-
-@import url(./_subscribe-footer.scss);

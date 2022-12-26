@@ -7,7 +7,7 @@
             text-align: center;
         }
 
-        @media screen and (min-width: $desktop){
+        @media screen and (min-width: $desktop) {
             display: flex;
             justify-content: center;
         }
@@ -30,15 +30,16 @@
 }
 
 .container-footer {
+
     // width: 100%;
-        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
-            display: inline-block;
-            text-align: center;
-        }
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
+        display: inline-block;
+        text-align: center;
+    }
 }
 
 .container-footer__footer-logo {
-    
+
     display: inline-block;
     margin-bottom: 20px;
 
@@ -54,6 +55,7 @@
         line-height: 1.17;
     }
 }
+
 .footer-nav {
     @media screen and (max-width: 767.95px) {
         gap: 8px;
@@ -72,6 +74,7 @@
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     &__info-link {
         font-style: normal;
         text-decoration: none;
@@ -92,4 +95,3 @@
         color: $focus-background-color;
     }
 }
-@import url(./_footer-soc-icons.scss);

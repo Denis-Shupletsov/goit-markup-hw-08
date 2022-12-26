@@ -1,35 +1,35 @@
                     // /Нормализатор/ 
-@import "./base/normalize";
+                    @import "./base/normalize";
 
                     // /Переменные/ 
-@import "./utils/variables";
+                    @import "./utils/variables";
 
                     // /Стили по умолчанию/ 
-@import "./utils/placeholders";
+                    @import "./utils/placeholders";
 
                     // Студия
-@import "./components/Studio/page-header";
+                    @import "./components/Studio/page-header";
 
-@import "./components/Studio/logo";
-@import "./components/Studio/navigation";
+                    @import "./components/Studio/logo";
+                    @import "./components/Studio/navigation";
 
-@import "./components/Studio/main-nav-menu-button";
-@import "./components/Studio/mobile-modal-menu";
-@import "./components/Studio/page-header-info";
+                    @import "./components/Studio/main-nav-menu-button";
+                    @import "./components/Studio/mobile-modal-menu";
+                    @import "./components/Studio/page-header-info";
 
-@import "./components/Studio/hero";
-@import "./components/Studio/section-produce-quality";
-@import "./components/Studio/section-page-works";
-@import "./components/Studio/section-team-player";
-@import "./components/Studio/player-soc-icons";
-@import "./components/Studio/section-company";
-@import "./components/Studio/footer-footer-nav";
-@import "./components/Studio/footer-soc-icons";
-@import "./components/Studio/subscribe-footer";
-@import "./components/Studio/modal-backdrop";
-@import "./components/Studio/modal-form";
-@import "./components/Studio/modal-label-checkbox";
+                    @import "./components/Studio/hero";
+                    @import "./components/Studio/section-produce-quality";
+                    @import "./components/Studio/section-page-works";
+                    @import "./components/Studio/section-team-player";
+                    @import "./components/Studio/player-soc-icons";
+                    @import "./components/Studio/section-company";
+                    @import "./components/Studio/footer-footer-nav";
+                    @import "./components/Studio/footer-soc-icons";
+                    @import "./components/Studio/subscribe-footer";
+                    @import "./components/Studio/modal-backdrop";
+                    @import "./components/Studio/modal-form";
+                    @import "./components/Studio/modal-label-checkbox";
 
                     // Портфолио
-@import "./components/Portfolio/portfolio-hero-button";
-@import "./components/Portfolio/figure-products";
+                    @import "./components/Portfolio/portfolio-hero-button";
+                    @import "./components/Portfolio/figure-products";
