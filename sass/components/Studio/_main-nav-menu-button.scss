@@ -1,7 +1,7 @@
 .open-menu-button {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 15px;
     border: none;
     background-color: transparent;
     padding: 0;
@@ -15,11 +15,11 @@
     @media screen and (min-width: $tablet) {
         display: none;
     }
-
 }
 
-.menu-button__icon-open-menu {
-    fill: currentColor;
+.menu-button__icon:hover,
+.menu-button__icon:focus {
+    fill: $focus-background-color;
 }
 
 .menu-container__icon-close-menu {
@@ -28,10 +28,6 @@
 
 .close-menu-button.is-open .menu-container__icon-close-menu {
     display: block;
-}
-
-.open-menu-button .menu-button__icon-open-menu {
-    // display: none;
 }
 
 .open-menu-button .menu-button__icon-open-menu {
