@@ -8,12 +8,10 @@
     {
       "extensionName": ".min.css",
       "format": "compressed",
-      "savePath": "/css"
+      "savePath": "/dist/css"
     }
   ],
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.autoprefix": ["defaults"],
-  "liveServer.settings.port": 5501,
-  "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-08"
+  "liveSassCompile.settings.autoprefix": ["defaults"]
 }
