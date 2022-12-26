@@ -1,33 +1,27 @@
 {
-     "liveSassCompile.settings.formats":[
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css"
-        },
-        {
-            "extensionName": ".min.css",
-            "format": "compressed",
-            "savePath": "/css"
-        }
-    ],
-    "liveSassCompile.settings.excludeList": [
-       "**/node_modules/**",
-       ".vscode/**"
-    ],
-    "liveSassCompile.settings.generateMap": true,
-    "liveSassCompile.settings.autoprefix": [
-        "defaults"
-    ],
-    "liveServer.settings.port": 5501,
-    "liveServer.settings.CustomBrowser": "chrome",
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-    "liveServer.settings.ChromeDebuggingAttachment": false,
-    "liveServer.settings.ignoreFiles": [
-    
-        ".vscode/**",
-        "**/*.scss",
-        "**/*.sass",
-        "**/*.ts"
-    ]
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ]
 }
