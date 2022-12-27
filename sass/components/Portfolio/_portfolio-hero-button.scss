@@ -1,16 +1,36 @@
 .hero-filter {
     padding: 94px 0px;
+
+    @media screen and (max-width: 1199.95px) {
+        padding: 60px 0px;
+    }
 }
 
 .filter {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 50px;
+    @media screen and (max-width: 767.95px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        width: 320px;
 
-    // &__filter-button {
-    //     white-space: nowrap;
-    // }
+        &__filter-button:not(:last-child) {
+            margin-right: 8px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 50px;
+    }
+
+
 
     &__button-portfolio {
         border: 0;
