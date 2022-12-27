@@ -1,14 +1,17 @@
 .figure {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% /3);
-    gap: 30px;
-
     @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
     }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc(100% /3);
+        gap: 30px;
+    }
+
 }
 
 .products {
@@ -16,6 +19,11 @@
         &:not(:last-child) {
             margin-bottom: 30px;
         }
+    }
+
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
+        width: calc((100% - 4 * 15px) / 2);
+        margin: 15px;
     }
 
     box-sizing: border-box;

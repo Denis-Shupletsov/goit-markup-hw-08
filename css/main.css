@@ -1671,17 +1671,19 @@ img {
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1019607843);
 }
 
-.figure {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 33.3333333333%;
-  gap: 30px;
-}
 @media screen and (min-width: 768px) and (max-width: 1199.95px) {
   .figure {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.3333333333%;
+    gap: 30px;
   }
 }
 
@@ -1691,6 +1693,12 @@ img {
 @media screen and (max-width: 767.95px) {
   .products:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199.95px) {
+  .products {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
   }
 }
 .products__figure-link {
