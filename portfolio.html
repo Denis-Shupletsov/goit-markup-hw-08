@@ -149,7 +149,23 @@
                     <li class="products">
                         <a class="products__figure-link list" href="Веб-сайт">
                             <div class="products__figure-link-website">
-                                <img src="./img/Портфолио/img1.jpg" alt="Веб-сайт" width="370">
+
+                                <picture>
+                                    <source srcset="./img/Портфолио/desktop/imgresource1x.jpg 1x,
+                                                    ./img/Портфолио/desktop/imgresource2x.jpg 2x"
+                                        media="(min-width:1200px)">
+
+                                    <!-- <source srcset="./img/Портфолио/desktop/imgresource1x.jpg 1x,
+                                                    ./img/Портфолио/desktop/imgresource2x.jpg 2x" -->
+                                    media="(min-width:768px)">
+
+                                    <!-- <source srcset="./img/Портфолио/desktop/imgresource1x.jpg 1x,
+                                                        ./img/Портфолио/desktop/imgresource2x.jpg 2x" -->
+                                    media="(min-width:480px)">
+
+                                    <img src="./img/Портфолио/desktop/imgresource1x.jpg" alt="Веб-сайт" width="370">
+                                </picture>
+
                                 <p class="products__website-resource">Ресурс пропонує комплексні пропозиції з різним
                                     рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
