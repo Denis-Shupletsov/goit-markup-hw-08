@@ -1,6 +1,6 @@
 .section__section-subtitle--section-heading {
     margin-bottom: 50px;
-    
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -20,12 +20,12 @@
         margin: -15px;
     }
 
-    @media screen and (min-width: $tablet) and (max-width: 1199.95px){
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
     }
-    
+
     &-items {
         @media screen and (max-width: 767.95px) {
             width: calc((100% - 4 * 15px) / 2);
@@ -34,14 +34,14 @@
         }
     }
 
-        @media screen and (min-width: $desktop) {
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-            align-items: center;
-            list-style-type: none;
-        }
-    
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+
     &__company-link {
         @media screen and (max-width: 767.95px) {
             width: 100%;
@@ -64,14 +64,14 @@
         color: #AFB1B8;
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+
     &__company-link:hover {
         color: $focus-background-color;
         border-color: $focus-background-color;
     }
-    
+
     &__company-icon {
         fill: currentColor;
     }

@@ -19,18 +19,19 @@
         }
     }
 
-    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
         margin-bottom: 30px;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $desktop) {
         display: flex;
         justify-content: center;
         gap: 8px;
         margin-bottom: 50px;
     }
-
-
 
     &__button-portfolio {
         border: 0;

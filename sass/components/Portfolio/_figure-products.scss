@@ -1,14 +1,14 @@
 .figure {
-
-    @media screen and (min-width: $desktop) {
-        flex-wrap: wrap;
-        flex-basis: calc(100% /3);
-        gap: 30px;
-    }
-
+    display: flex;
     flex-wrap: wrap;
     flex-basis: calc(100% /3);
     gap: 30px;
+
+    @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
 }
 
 .products {
