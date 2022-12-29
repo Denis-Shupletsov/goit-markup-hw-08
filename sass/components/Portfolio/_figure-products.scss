@@ -84,6 +84,12 @@
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+
+        @media screen and (min-width: $tablet) and (max-width: 1199.95px) {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
 
     &__figure-text {
