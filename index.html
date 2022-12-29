@@ -27,7 +27,7 @@
 
                 <!-- Кнопка меню -->
                 <button type="button" class="open-menu-button" aria-expanded="false" aria-controls="menu-container"
-                    js-open-menu>
+                    open-menu-button>
                     <svg class="menu-button__icon" width="40px" height="40px"
                         aria-label="Переключатель мобильного меню">
                         <use class="menu-button__icon-open-menu" href="./img/symbol-defs.svg#icon-open_menu"></use>
@@ -36,10 +36,10 @@
 
                 <!-- Мобильное меню -->
 
-                <div class="menu-container" id="menu-container" js-menu-container>
+                <div class="menu-container" id="menu-container" menu-container>
 
                     <button type="button" class="close-menu-button is-open" aria-expanded="false"
-                        aria-controls="menu-container" js-close-menu>
+                        aria-controls="menu-container" close-menu-button>
                         <svg class="menu-container__icon" width="40px" height="40px"
                             aria-label="Переключатель мобильного меню">
                             <use class="menu-container__icon-close-menu" href="./img/symbol-defs.svg#icon-close_menu">
@@ -196,7 +196,7 @@
 
                         <picture>
                             <source srcset="./img/works/website-1x.jpg 1x, 
-                                                        ./img/works/website@2x.jpg 2x" media="(min-width:1200px)">
+                                                            ./img/works/website@2x.jpg 2x" media="(min-width:1200px)">
 
                             <img src="./img/works/website-1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
@@ -207,7 +207,8 @@
                     <li class="page__works">
                         <picture>
                             <source srcset="./img/works/applications-1x.jpg 1x, 
-                                                        ./img/works/applications@2x.jpg 2x" media="(min-width:1200px)">
+                                                            ./img/works/applications@2x.jpg 2x"
+                                media="(min-width:1200px)">
 
                             <img src="./img/works/applications-1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
@@ -217,7 +218,7 @@
                     <li class="page__works">
                         <picture>
                             <source srcset="./img/works/design-1x.jpg 1x, 
-                                                        ./img/works/design@2x.jpg 2x" media="(min-width:1200px)">
+                                                            ./img/works/design@2x.jpg 2x" media="(min-width:1200px)">
 
                             <img src="./img/works/design-1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
@@ -236,15 +237,16 @@
 
                         <picture>
                             <source srcset="./img/Команда/Игорь/igor-desktop@1x.jpg 1x, 
-                                                    ./img/Команда/Игорь/igor-desktop@2x.jpg 2x"
+                                                        ./img/Команда/Игорь/igor-desktop@2x.jpg 2x"
                                 media="(min-width:1200px)">
 
                             <source srcset="./img/Команда/Игорь/igor-tablet@1x.jpg 1x, 
-                                                    ./img/Команда/Игорь/igor-tablet@2x.jpg 2x"
+                                                        ./img/Команда/Игорь/igor-tablet@2x.jpg 2x"
                                 media="(min-width:768px)">
 
                             <source srcset="./img/Команда/Игорь/igor-mob@1x.jpg 1x, 
-                                                    ./img/Команда/Игорь/igor-mob@2x.jpg 2x" media="(min-width:468px)">
+                                                        ./img/Команда/Игорь/igor-mob@2x.jpg 2x"
+                                media="(min-width:468px)">
 
                             <img src="./img/Команда/Игорь/igor-desktop@1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
@@ -285,15 +287,16 @@
                     <li class="player__card">
                         <picture>
                             <source srcset="./img/Команда/Ольга/olga-desktop-1x.jpg 1x, 
-                                                    ./img/Команда/Ольга/olga-desktop2x.jpg 2x"
+                                                        ./img/Команда/Ольга/olga-desktop2x.jpg 2x"
                                 media="(min-width:1200px)">
 
                             <source srcset="./img/Команда/Ольга/olga-tablet-1x.jpg 1x, 
-                                                    ./img/Команда/Ольга/olga-tablet2x.jpg 2x"
+                                                        ./img/Команда/Ольга/olga-tablet2x.jpg 2x"
                                 media="(min-width:768px)">
 
                             <source srcset="./img/Команда/Ольга/olga-mob-1x.jpg 1x, 
-                                                    ./img/Команда/Ольга/olga-mob2x.jpg 2x" media="(min-width:468px)">
+                                                        ./img/Команда/Ольга/olga-mob2x.jpg 2x"
+                                media="(min-width:468px)">
 
                             <img src="./img/Команда/Ольга/olga-desktop-1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
@@ -337,16 +340,17 @@
                     <li class="player__card">
                         <picture>
                             <source srcset="./img/Команда/Николай/nik-desktop-1x.jpg 1x, 
-                                                    ./img/Команда/Николай/nik-desktop2x.jpg 2x"
+                                                        ./img/Команда/Николай/nik-desktop2x.jpg 2x"
                                 media="(min-width:1200px)">
 
                             <source srcset="./img/Команда/Николай/nik-tablet-1x.jpg 1x, 
-                                                    ./img/Команда/Николай/nik-tablet2x.jpg 2x"
+                                                        ./img/Команда/Николай/nik-tablet2x.jpg 2x"
                                 media="(min-width:768px)">
 
 
                             <source srcset="./img/Команда/Николай/nik-mob-1x.jpg 1x, 
-                                                    ./img/Команда/Николай/nik-mob2x.jpg 2x" media="(min-width:468px)">
+                                                        ./img/Команда/Николай/nik-mob2x.jpg 2x"
+                                media="(min-width:468px)">
 
                             <img src="./img/Команда/Николай/nik-desktop-1x.jpg" alt="Фото участника команды"
                                 width="270">
@@ -391,15 +395,16 @@
                     <li class="player__card">
                         <picture>
                             <source srcset="./img/Команда/Михаил/mih-desktop-1x.jpg 1x, 
-                                                    ./img/Команда/Михаил/mih-desktop2x.jpg 2x"
+                                                        ./img/Команда/Михаил/mih-desktop2x.jpg 2x"
                                 media="(min-width:1200px)">
 
                             <source srcset="./img/Команда/Михаил/mih-tablet-1x.jpg 1x, 
-                                                    ./img/Команда/Михаил/mih-tablet2x.jpg 2x"
+                                                        ./img/Команда/Михаил/mih-tablet2x.jpg 2x"
                                 media="(min-width:768px)">
 
                             <source srcset="./img/Команда/Михаил/mih-mob-1x.jpg 1x, 
-                                                    ./img/Команда/Михаил/mih-mob2x.jpg 2x" media="(min-width:468px)">
+                                                        ./img/Команда/Михаил/mih-mob2x.jpg 2x"
+                                media="(min-width:468px)">
 
                             <img src="./img/Команда/Михаил/mih-desktop-1x.jpg" alt="Фото участника команды" width="270">
                         </picture>
